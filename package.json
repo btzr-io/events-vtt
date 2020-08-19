@@ -1,0 +1,9 @@
+{
+  "name": "events-vtt",
+  "version": "0.0.1",
+  "description": "Listen and dispatch media timed events from a .vtt file.",
+  "main": "src/index.js",
+  "repository": "https://github.com/btzr-io/events-vtt.git",
+  "author": "btzr-io <btzr.io@gmail.com>",
+  "license": "MIT"
+}
