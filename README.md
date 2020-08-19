@@ -21,10 +21,14 @@ import EventManagerVtt from 'events-vtt';
 ### Usage
 
 Add a track element indside your media element (video or audio):
+
 - Set the track kind attribute as `metadata` type.
+
 - Set the label attribute value equal to `events`.
 
+
 > Note: The track source should contain a url to a valid .vtt file. 
+
 
 ```
 <mediaElement>
@@ -33,6 +37,7 @@ Add a track element indside your media element (video or audio):
 ```
 
 Create a instance of the `EventManagerVtt` class to listen for the event's life.
+
 
 ```JS
 const test = new EventManagerVTT(player.current, {});
@@ -47,8 +52,10 @@ test.addEventListener('event:end', (event) => {
 ```
 
 ### WebVTT
+
 Here is an example of a .vtt file that contains data for each event.
 Please check the current standars for more information: https://www.w3.org/TR/webvtt1/
+
 ```
 WEBVTT
 
