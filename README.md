@@ -30,7 +30,7 @@ Add a track element indside your media element (video or audio):
 > Note: The track source should contain a url to a valid .vtt file. 
 
 
-```
+```HTML
 <mediaElement>
   <track default src="./events.vtt" kind="metadata" label="events" />
 </mediaElement>
