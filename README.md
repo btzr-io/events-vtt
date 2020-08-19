@@ -4,12 +4,12 @@ Listen and dispatch media timed events from a .vtt file
 ### Install
 
 ```
-npm install events-vtt
+npm install @btzr-io/events-vtt@0.0.1
 ```
 or
 
 ```
-yarn install events-vtt
+yarn install @btzr-io/events-vtt@0.0.1
 ```
 
 ### Import
