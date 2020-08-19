@@ -15,7 +15,7 @@ yarn install @btzr-io/events-vtt@0.0.1
 ### Import
 
 ```JS
-import EventManagerVtt from 'events-vtt';
+import EventManagerVtt from '@btzr-io/events-vtt';
 ```
 
 ### Usage
